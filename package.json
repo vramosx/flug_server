@@ -1,0 +1,28 @@
+{
+  "name": "flug_server",
+  "version": "0.2.0",
+  "description": "Server for Flug Plugin",
+  "main": "main.js",
+  "scripts": {
+    "dev": "nodemon main.js",
+    "start": "node main.js"
+  },
+  "keywords": [
+    "flutter",
+    "flug",
+    "bug",
+    "server"
+  ],
+  "author": "Victor Ramos",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "dependencies": {
+    "bcrypt": "^3.0.7",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^3.4.0",
+    "restify": "^8.5.1",
+    "restify-jwt-community": "^1.1.2"
+  }
+}
