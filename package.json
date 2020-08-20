@@ -19,7 +19,7 @@
     "nodemon": "^2.0.2"
   },
   "dependencies": {
-    "bcrypt": "^3.0.7",
+    "bcrypt": "^5.0.0",
     "jsonwebtoken": "^8.5.1",
     "mongodb": "^3.4.0",
     "restify": "^8.5.1",
